@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Karla", "Poppins", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  width: 32px;
+}
+
+header .logo p {
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .nav-links {
+  margin-right: 4rem;
+}
+header nav .nav-links a {
+  display: inline-block;
+  margin: 0 1rem;
+}
+header nav .btn {
+  padding: 0.5rem 1.5rem;
+  outline: none;
+  border: 1px solid #000;
+}
+
+section.showcase {
+  display: flex;
+  align-items: center;
+}
+
+section.showcase .left {
+  flex: 1;
+  padding-left: 3rem;
+}
+
+section.showcase .left h1 {
+  font-size: 4rem;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
+section.showcase .left p {
+  width: 60%;
+  margin-bottom: 2rem;
+}
+
+section.showcase .left button {
+  padding: 0.5rem 1.5rem;
+  outline: none;
+  border-radius: 0.5rem;
+  border: 1px solid #000;
+  background: rgb(0, 115, 255);
+  color: #fff;
+  text-transform: capitalize;
+}
+
+section.showcase .right {
+  position: relative;
+  flex: 1;
+}
+
+section.showcase .right img.phone {
+  margin-left: -35%;
+  width: 130%;
+}
+section.showcase .right img.mask {
+  width: 90%;
+  position: absolute;
+  z-index: -1;
+  bottom: 5%;
+  left: 0;
+}

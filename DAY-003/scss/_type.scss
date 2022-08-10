@@ -1,0 +1,39 @@
+@import "variables";
+@import "mixins";
+
+//
+// Headings
+//
+
+h1 {
+  font-size: $h1-font-size;
+  line-height: $line-height-xsm;
+  font-weight: 900;
+
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: $h4-font-size;
+}
+h5 {
+  font-size: $h5-font-size;
+}
+h6 {
+  font-size: $h6-font-size;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  color: $gray-600;
+}
