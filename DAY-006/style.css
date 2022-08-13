@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 59px;
+}
+.logo img {
+  width: 64px;
+  margin-inline: auto;
+}
+section.showcase {
+  margin-bottom: 6rem;
+}
+
+section.showcase h1 {
+  text-align: center;
+  font-size: 3rem;
+
+  text-transform: capitalize;
+}
+
+section.showcase p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+section.showcase button {
+  margin: auto;
+  display: block;
+  margin-top: 5rem;
+
+  outline: none;
+  border: 1px solid rgb(157, 78, 0);
+
+  padding: 1rem 4rem;
+
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(157, 78, 0);
+  background-color: white;
+}
+
+section.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 1rem;
+  padding: 1rem;
+}
+
+section.grid .grid-item {
+  padding: 1rem;
+}
+
+section.grid .grid-item img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+section.grid .grid-item h4 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  background-color: #0000;
+}
+
+/* section.selection */
+
+section.selection header {
+  flex-direction: column;
+}
+
+section.selection header h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #939393;
+}
+
+section.selection header h1 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+section.selection header p {
+  width: 40%;
+  text-align: center;
+}
+section.selection div.catalog {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+section.selection div.slide {
+  width: 350px;
+}
+
+section.selection div.catalog img {
+  width: 100%;
+  max-width: 450px;
+
+  margin-bottom: 1rem;
+
+  background: #b5b5b5;
+}
+
+section.selection div.catalog h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #939393;
+}
+section.selection div.catalog h4 {
+  color: #3d3d3d;
+}
+section.selection div.catalog p {
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+section.selection div.catalog h5 {
+  font-weight: 500;
+}
+section.selection .footer-para {
+  text-align: center;
+  padding: 2rem;
+}
+
+section.selection .footer-para a {
+  color: rgb(157, 78, 0);
+  font-weight: 500;
+  text-decoration: none;
+}
+section.selection .footer-para a:hover {
+  text-decoration: underline;
+}
+
+section.get-in-touch {
+  background: #283137;
+  color: #fff;
+  padding: 5rem 0;
+}
+
+section.get-in-touch header {
+  flex-direction: column;
+}
+section.get-in-touch header h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  color: #939393;
+  margin-bottom: 1rem;
+}
+
+section.get-in-touch header h1 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+section.get-in-touch form {
+  width: 50%;
+  margin-inline: auto;
+}
+
+section.get-in-touch form label {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+
+  color: #b5b5b5;
+}
+
+section.get-in-touch form input,
+section.get-in-touch form textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #1a1d22;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  color: #fff;
+
+  transition: 0.3s all ease;
+}
+section.get-in-touch form textarea {
+  resize: none;
+  height: 200px;
+}
+
+section.get-in-touch form input:focus,
+section.get-in-touch form textarea:focus {
+  background: #1c2129;
+}
+
+section.get-in-touch form button {
+  font-size: 1.1rem;
+  color: #fff;
+  padding: 1rem;
+  font-weight: 500;
+
+  border: 1px solid #fff;
+  background: none;
+  text-transform: capitalize;
+
+  width: 100%;
+  cursor: pointer;
+
+  transition: 0.3s all ease;
+}
+
+section.get-in-touch form button:hover {
+  background: #fff;
+  color: #000;
+}
+
+section.get-in-touch form p {
+  padding: 1rem;
+  text-align: center;
+  font-style: italic;
+  color: #999999;
+}
+
+section.location header {
+  margin: 5rem 0;
+  flex-direction: column;
+}
+
+section.location header h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  color: #939393;
+  margin-bottom: 1rem;
+}
+
+section.location header h1 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+section.location p {
+  font-size: 2rem;
+  text-align: center;
+  margin: 5rem auto;
+}
+
+section.location .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+  padding: 5rem;
+}
+
+section.location .social-icons img {
+  height: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+footer p {
+  width: 50%;
+  margin-inline: auto;
+
+  font-size: 1.2rem;
+}
+
+footer a {
+  color: rgb(157, 78, 0);
+  font-weight: 500;
+  font-weight: 600;
+  text-transform: uppercase;
+}
