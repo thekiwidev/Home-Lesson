@@ -19,7 +19,8 @@ header {
   margin-inline: auto;
 }
 section.showcase {
-  margin-bottom: 6rem;
+  margin-bottom: 7rem;
+  padding: 4rem 0;
 }
 
 section.showcase h1 {

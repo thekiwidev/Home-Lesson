@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 4rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+section.showcase {
+  text-align: center;
+  margin-bottom: 7rem;
+  padding: 4rem;
+}
+
+section.showcase h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+section.showcase p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 6rem;
+}
+
+section.showcase button {
+  padding: 1rem 5rem;
+
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  outline: none;
+  border: 1px solid rgb(157, 78, 0);
+  color: rgb(157, 78, 0);
+  background: none;
+}
+
+section.selection header {
+  flex-direction: column;
+  text-align: center;
+}
+
+section.selection header h4 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #666;
+}
+
+section.selection header
