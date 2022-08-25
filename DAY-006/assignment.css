@@ -54,4 +54,90 @@ section.selection header h4 {
   color: #666;
 }
 
-section.selection header
+section.selection header h1 {
+  margin: 1rem;
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+section.selection header p {
+  width: 40%;
+  margin: auto;
+}
+
+section.selection .catalog {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+section.selection .catalog .slide {
+  max-width: 350px;
+}
+
+section.selection .catalog .slide img {
+  width: 100%;
+  background: #b6b6b6;
+}
+
+section.selection .catalog .slide h3 {
+  color: #939393;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0.5rem 0;
+}
+
+section.selection .catalog .slide h4 {
+  color: #3d3d3d;
+  font-weight: 500;
+}
+
+section.selection .catalog .slide p {
+  margin: 1rem 0;
+}
+
+section.selection .catalog .slide h5 {
+  font-weight: 600;
+}
+
+section.selection .footer-para {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+section.selection .footer-para a {
+  color: #9d4e00;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+section.selection .footer-para a:hover {
+  text-decoration: underline;
+}
+
+section.get-in-touch {
+  padding: 5rem 2rem;
+  color: #fff;
+  background-color: #283137;
+}
+section.get-in-touch header {
+  flex-direction: column;
+  align-items: center;
+}
+
+section.get-in-touch header h4 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #939393;
+}
+
+section.get-in-touch header h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+section.get-in-touch label {
+  display: block;
+}

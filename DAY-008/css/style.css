@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Fira Code", "poppins", monospace;
+}
+
+body {
+  background: #000;
+  color: #00c80d;
+}
+
+header {
+  padding: 2rem;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo img {
+  width: 40px;
+}
+
+header .logo span {
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-top: 0.5rem;
+}
+
+section.action {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.action .generated-password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+section.action .generated-password input {
+  background: none;
+  border: 1px solid #00c80d;
+  padding: 0.8rem 1rem;
+  color: #00c80d;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+section.action .generated-password button {
+  background: none;
+  border: 1px solid #00c80d;
+  border-left: none;
+  padding: 0.35rem;
+}
+
+section.action .generated-password button img {
+  width: 32px;
+}
+
+section.action .modifications label {
+  margin-bottom: 0.5rem;
+  display: block;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+section.action .modifications input[type="number"] {
+  width: 40px;
+  background: none;
+  color: #00c80d;
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid #00c80d;
+  padding: 0.5rem 2rem;
+}
+
+section.action .modifications h2 {
+  text-transform: capitalize;
+  margin: 2rem 0;
+}
+
+section.action .modifications .characters div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+section.action .modifications .characters div input[type="checkbox"] {
+  padding: 0.4rem;
+}
+/*# sourceMappingURL=style.css.map */

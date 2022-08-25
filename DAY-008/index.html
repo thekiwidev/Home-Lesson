@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pass-Gen | Random Password Generator</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div class="logo">
+          <img src="./logo.png" alt="Password" /><span>*%@76%</span>
+        </div>
+      </header>
+      <section class="action">
+        <div class="generated-password">
+          <input
+            type="text"
+            name="password"
+            id="password"
+            value="password"
+          /><button>
+            <img src="./copy.png" alt="copy-to-clipboard" />
+          </button>
+        </div>
+
+        <div class="modifications">
+          <label for="length">length</label>
+          <input type="number" name="lenght" id="lenght" placeholder="05" />
+
+          <div class="characters">
+            <h2>characters</h2>
+            <div class="symbols">
+              <input type="checkbox" name="symbols" id="symbols" />
+              <label for="symbols">symbols</label>
+            </div>
+            <div class="special-charcter">
+              <input
+                type="checkbox"
+                name="special-charcter"
+                id="special-charcter"
+              />
+              <label for="special-charcter">special charcter</label>
+            </div>
+            <div class="numbers">
+              <input type="checkbox" name="numbers" id="numbers" />
+              <label for="numbers">numbers</label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
