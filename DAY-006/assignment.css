@@ -138,6 +138,106 @@ section.get-in-touch header h1 {
   text-transform: capitalize;
 }
 
+section.get-in-touch form {
+  width: 50%;
+  margin: auto;
+}
+
 section.get-in-touch label {
   display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #b5b5b5;
+}
+
+section.get-in-touch input,
+section.get-in-touch textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #1a1d22;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  transition: 0.3s all ease;
+}
+section.get-in-touch textarea {
+  height: 200px;
+  resize: none;
+}
+
+section.get-in-touch button {
+  width: 100%;
+  padding: 1rem;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  transition: all 0.8s;
+}
+
+section.get-in-touch button:hover {
+  background: #fff;
+  color: #000;
+}
+
+section.get-in-touch p {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.5rem;
+  color: #b5b5b5;
+}
+
+section.location header {
+  flex-direction: column;
+  text-align: center;
+}
+
+section.location header h4 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  color: #939393;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+section.location header h1 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+section.location p {
+  font-size: 2rem;
+  text-align: center;
+  margin: 5rem auto;
+}
+section.location .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 8rem auto;
+}
+
+section.location .social-icons img {
+  height: 2rem;
+}
+
+footer p {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 5rem 2rem;
+}
+
+footer p a{
+  color: #9d4e00;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
 }

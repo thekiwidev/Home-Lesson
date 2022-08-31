@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+
+body {
+  background: #000;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+#wrapper header.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem;
+}
+
+#wrapper header.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#wrapper header.header .logo img {
+  width: 62px;
+}
+
+#wrapper header.header .logo h1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 0.18;
+}
+
+#wrapper header.header .logo h1 b {
+  color: #ef007a;
+  font-size: 2.5rem;
+}
+
+#wrapper header.header nav.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#wrapper header.header nav.nav-bar ul.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  margin-right: 5rem;
+}
+
+#wrapper header.header nav.nav-bar ul.nav-links li a {
+  margin: 0 0.4rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+#wrapper header.header nav.nav-bar ul.nav-links li a:hover {
+  -webkit-text-decoration: underline #ef007a;
+          text-decoration: underline #ef007a;
+}
+
+#wrapper header.header nav.nav-bar ul.nav-links li:nth-child(1) a {
+  color: #ef007a;
+}
+
+#wrapper header.header nav.nav-bar ul.nav-links li:nth-child(1) a:hover {
+  -webkit-text-decoration: underline #fff;
+          text-decoration: underline #fff;
+}
+
+#wrapper header.header nav.nav-bar div.community-support {
+  padding: 0.8rem;
+}
+
+#wrapper header.header nav.nav-bar div.community-support img {
+  width: 32px;
+}
+
+#wrapper section.hero-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+#wrapper section.hero-banner .main-texts {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+#wrapper section.hero-banner .main-texts h4 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+#wrapper section.hero-banner .main-texts h1 {
+  font-size: 3.5rem;
+  line-height: 1;
+  margin-bottom: 2.5rem;
+}
+
+#wrapper section.hero-banner .main-texts h1 span {
+  color: #ef007a;
+  line-height: 1.2;
+}
+
+#wrapper section.hero-banner .main-texts button {
+  background: none;
+  outline: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#wrapper section.hero-banner .main-texts button:hover {
+  color: #ef007a;
+  -webkit-text-decoration: underline #fff;
+          text-decoration: underline #fff;
+}
+
+#wrapper section.hero-banner .main-texts button img {
+  width: 24px;
+}
+
+#wrapper section.hero-banner .hero-image {
+  -webkit-box-flex: 2.5;
+      -ms-flex: 2.5;
+          flex: 2.5;
+  margin-top: 1.8rem;
+}
+
+#wrapper section.hero-banner .hero-image img {
+  width: 73.9vh;
+  margin-bottom: -15rem;
+}
+
+#wrapper section.hero-banner .discount-texts {
+  margin-top: 5rem;
+  -webkit-box-flex: 1.6;
+      -ms-flex: 1.6;
+          flex: 1.6;
+}
+
+#wrapper section.hero-banner .discount-texts h1 {
+  font-size: 3.5rem;
+}
+
+#wrapper footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.8rem;
+}
+
+#wrapper footer .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+#wrapper footer .social-icons img {
+  width: 28px;
+}
+/*# sourceMappingURL=style.css.map */
