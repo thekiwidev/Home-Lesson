@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffff;
+}
+
+* img {
+  width: 70%;
+}
+
+body {
+  background: #000;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+
+header .logo img {
+  width: 60px;
+}
+
+header .logo h1 {
+  line-height: 0.14;
+  font-size: 1.4rem;
+}
+
+header .logo h1 b {
+  color: #ef007a;
+  font-size: 2rem;
+}
+
+header nav {
+  display: flex;
+  gap: 3rem;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+  gap: 1rem;
+}
+
+header nav ul a {
+  text-transform: capitalize;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+header nav ul a:hover {
+  text-decoration: underline #ef007a;
+}
+
+header nav ul li:first-child a {
+  color: #ef007a;
+}
+
+header nav ul li:first-child a:hover {
+  text-decoration: underline #fff;
+}
+
+header nav .community-support {
+  padding: 0.8rem;
+}
+
+header nav .community-support img {
+  width: 32px;
+}
+
+section.hero-banner {
+  display: flex;
+}
+
+section.hero-banner .left {
+  display: flex;
+  flex: 4;
+}
+
+section.hero-banner .left .inner-left {
+  margin-top: 4rem;
+  padding: 3rem;
+}
+
+section.hero-banner .left .inner-left h1 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin-top: 1rem;
+}
+
+section.hero-banner .left .inner-left h1 b {
+  color: #ef007a;
+}
+
+section.hero-banner .left .inner-left button {
+  background: none;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  gap: 0.5rem;
+}
+
+section.hero-banner .left .inner-left button:hover {
+  color: #ef007a;
+  text-decoration: underline #fff;
+}
+
+section.hero-banner .left .inner-left button img {
+  width: 24px;
+}
+
+section.hero-banner .left .inner-right img {
+  width: 90%;
+}
+
+section.hero-banner .right {
+  flex: 0.8;
+  margin-top: 5rem;
+  margin-right: 2rem;
+}
+
+section.hero-banner .right h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+}
+
+footer .right {
+  display: flex;
+  gap: 2rem;
+}
+
+footer .right img {
+  width: 32px;
+}
