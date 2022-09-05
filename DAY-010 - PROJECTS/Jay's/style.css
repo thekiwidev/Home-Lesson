@@ -18,6 +18,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0.8rem;
+
+  position: relative;
 }
 
 header .logo img {
@@ -71,6 +73,11 @@ header nav .community-support {
 
 header nav .community-support img {
   width: 32px;
+}
+
+header .menu {
+  display: none;
+  cursor: pointer;
 }
 
 section.hero-banner {
@@ -152,4 +159,73 @@ footer .right {
 
 footer .right img {
   width: 32px;
+}
+
+@media only screen and (max-width: 500px) {
+  header nav {
+    position: absolute;
+    top: -150vh;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    background: #000;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 20vh;
+    transition: 0.5s all;
+  }
+
+  header nav.show {
+    top: 0;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header .menu {
+    display: block;
+  }
+
+  header .menu .stroke {
+    /* width: 32px; */
+    margin-bottom: 5px;
+    height: 4px;
+    background: #fff;
+  }
+
+  header .menu .text {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  header .menu:hover .text {
+    color: #ef007a;
+  }
+
+  section.hero-banner {
+    flex-direction: column;
+  }
+
+  section.hero-banner .left .inner-right img {
+    display: none;
+  }
+  section.hero-banner .right {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+  }
+  footer {
+    bottom: -100%;
+    flex-direction: column;
+    gap: 2rem;
+    transition: 0.5s all;
+  }
+
+  footer.show {
+    bottom: 0;
+  }
 }
