@@ -1,0 +1,137 @@
+* {
+  margin: 0%;
+  padding: 0;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  /* overflow-x: hidden; */
+
+  color: #fff;
+}
+
+.wrapper header {
+  height: 100vh;
+
+  background: url("./assets/img/header.background.png") no-repeat center
+      center/cover,
+    linear-gradient(#000000cb, #000000cb);
+
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 3rem;
+}
+
+.wrapper header nav {
+  width: 100%;
+  display: flex;
+  /* justify-self: end; */
+  align-items: center;
+  justify-content: end;
+}
+
+.wrapper header nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem;
+
+  display: inline-block;
+}
+
+.wrapper header nav .search {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 2rem;
+  padding: 0.3rem 1rem;
+}
+
+.wrapper header nav .search input {
+  padding: 0.3rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+}
+
+.wrapper header .showcase {
+  width: 100%;
+  /* padding: 5rem; */
+
+  display: flex;
+}
+
+.wrapper header .showcase .left {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 3rem;
+}
+
+.wrapper header .showcase .left img.logo {
+  width: 100px;
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+}
+
+.wrapper header .showcase .left img.title {
+  width: 550px;
+}
+
+.wrapper header .showcase .left h1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.wrapper header .showcase .left a {
+  background: #fff;
+  color: #000;
+  width: max-content;
+  padding: 0.6rem 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-radius: 10rem;
+}
+
+.wrapper header .showcase .left p {
+  width: 400px;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.wrapper header .showcase .right {
+  position: relative;
+}
+
+.wrapper header .showcase .right .dish {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.wrapper header .showcase .right .leafs {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.wrapper section.dishes {
+  width: 100%;
+}
+
+.wrapper section.dishes img.title {
+  filter: invert(100%);
+  margin: auto;
+  width: 50%;
+}
+
+
+.wrapper section.dishes p{
+  color: #000;
+}
+
+.wrapper section.dishes .food {
+  display: flex;
+}

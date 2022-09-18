@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+
+  text-decoration: none;
+  color: #000;
+}
+
+.wrapper nav {
+  text-align: right;
+  margin-right: 2rem;
+}
+
+.wrapper nav a {
+  display: inline-block;
+  padding: 0.2rem;
+  margin: 0.8rem;
+
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+section#section-one {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+section#section-one .right h1 {
+  text-transform: capitalize;
+  font-size: 3.5rem;
+
+  width: 80%;
+
+  word-spacing: 0.3rem;
+}
+
+section#section-one .right p {
+  width: 65%;
+
+  margin: 2rem 0;
+}
+
+section#section-one .right button {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  outline: none;
+  border: none;
+
+  background: #ffa9a9;
+}
+
+section#pregnant-women-programme {
+  height: 100vh;
+  background-image: url("./assets/pregnant-women-program.png");
+  background-size: cover;
+  background-position: 50% 100%;
+
+  display: flex;
+  align-items: center;
+
+  /* padding: 4rem; */
+}
+
+section#pregnant-women-programme .content {
+  width: 50%;
+  padding: 4rem;
+}
+
+section#pregnant-women-programme .content h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+section#pregnant-women-programme .content p {
+  width: 60%;
+  margin-bottom: 2rem;
+}
+
+section#pregnant-women-programme .content button {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  outline: none;
+  border: none;
+
+  background: #ffa9a9;
+}
+
+section.program {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: 4rem 0;
+
+  text-align: center;
+}
+
+section.program h3 {
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
